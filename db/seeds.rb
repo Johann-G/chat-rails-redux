@@ -21,6 +21,9 @@ channel_paris.save!
 channel_react = Channel.new(name: "react")
 channel_react.save!
 
+channel_react = Channel.new(name: "rails")
+channel_react.save!
+
 puts "Create users"
 user_toto = User.new(email: "toto@toto.com", password: "123456")
 user_toto.save!
